@@ -1,7 +1,7 @@
 /*global Ultraviolet*/
 self.__uv$config = {
     prefix: "/uv/service/",
-    bare: "/b/",
+    bare: "https://backend-test-v2.humbertoesteban-terriquezpimienta.workers.dev/",
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: "/uv/uv.handler.js",
